@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device-width,initial-scale=1.0">
+    </head>
+<html>
+<head>            
+        <title>Student Registration Form</title>
+        <style>
+            body{
+                font-family: Arial;
+                background-color: whitesmoke;
+                padding: 30px;
+            }
+
+            h1 {
+                color: navy;
+            }
+
+            form {
+                background-color:lavender;
+                width: 300px;
+                border: 2px solid black;
+                width:600px;
+            } 
+
+            table{ 
+                background-color: pink;
+                border: solid black;
+                width: 600px;
+            }
+
+            td {
+                border: 2px solid black;
+                padding: 10px;
+                font-size: 18px;
+            }
+
+            input, textarea {
+                width: 95%
+                margin: 5px 0 12px;
+                background-color: whitesmoke;
+                padding: 8px;
+            }
+
+            button {
+                background-color: blue;
+                color: white;
+                padding: 8px 20px;
+            }
+        </style>
+        </head>    
+        <body>
+
+            <h1>Student Registration Form</h1>
+            <p>Fill in your details to register</p>
+
+            <form>
+                <table>
+
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="name"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Father's Name</td>
+                        <td><input type="text" name="fathername"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td><input type="date" name="dob"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Email</td>
+                        <td><input name="email" name="email"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Password</td>
+                        <td><input name="pasword" name="password"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Gender</td>
+                        <td><input type="radio" name="gender" value="Female">Female
+                        <input type="radio" name="gender" value="Male">Male
+                    </td>
+                    </tr>
+
+                    <tr>
+                        <td>Phone Number</td>
+                        <td><input type="tel" name="phone"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Address</td>
+                        <td><textarea name="address" rows="4" cols="25"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" align="center">
+                        <input type="submit" value="Submit">   
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+        </body>   
+</html>
